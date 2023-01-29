@@ -15,13 +15,14 @@ function App() {
     setNomberOfPeople(1);
     setBill('0');
     setTotal(0);
+    setAmount(0);
   };
 
   useEffect(() => {
     if (numberOfPeople > 0 && +bill > 0) {
       const tiptotal = (+bill * tipPercentage) / 100;
-      setAmount(() => tiptotal / numberOfPeople);
-      setTotal(+bill / numberOfPeople + amount);
+      setAmount(tiptotal / numberOfPeople);
+      setTotal(+bill / numberOfPeople + tiptotal);
     }
   }, [numberOfPeople, bill, tipPercentage]);
 
