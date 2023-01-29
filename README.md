@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.mathurinolivier.com)
-- Live Site URL: [Add live site URL here](https://spliter.mathurinolivier.com)
+- Solution URL: [Github](https://github.com/OlivrM/spliter#overview)
+- Live Site URL: [live site URL here](https://spliter.mathurinolivier.com)
 
 ## My process
 
