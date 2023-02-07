@@ -22,7 +22,7 @@ function App() {
     if (numberOfPeople > 0 && +bill > 0) {
       const tiptotal = (+bill * tipPercentage) / 100;
       setAmount(tiptotal / numberOfPeople);
-      setTotal(+bill / numberOfPeople + tiptotal);
+      setTotal(+bill / numberOfPeople + tiptotal / numberOfPeople);
     }
   }, [numberOfPeople, bill, tipPercentage]);
 
