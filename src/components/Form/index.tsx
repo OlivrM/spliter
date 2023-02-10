@@ -78,6 +78,7 @@ const Form = ({
           id="Number of People"
           value={numberOfPeople}
           type="number"
+          step={1}
           onChange={(e) => handleNumberOfPeople(parseInt(e.target.value, 10))}
         />
       </div>
