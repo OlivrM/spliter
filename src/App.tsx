@@ -8,12 +8,12 @@ function App() {
   const [total, setTotal] = useState(0);
   const [tipPercentage, setTipPercentage] = useState(0);
   const [numberOfPeople, setNomberOfPeople] = useState(1);
-  const [bill, setBill] = useState('0');
+  const [bill, setBill] = useState('');
 
   const reset = () => {
     setTipPercentage(0);
     setNomberOfPeople(1);
-    setBill('0');
+    setBill('');
     setTotal(0);
     setAmount(0);
   };
